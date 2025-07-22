@@ -21,6 +21,8 @@ import joblib
 
 ## Importing The ML model which is provided in the same forlder. we can import it with 
 ## help of pickle or joblib.
+## you can Import rf_model from file named as "Piper_Robot_Arm_Model_for_End_Effector_and_Joint_Angles.ipynb"
+
 with open("rf_model.pkl","rb") as file:
     model = joblib.load(file)
     print("------------------------------------------------")
